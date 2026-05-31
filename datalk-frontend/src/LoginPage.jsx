@@ -82,7 +82,7 @@ export default function LoginPage() {
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", backgroundColor: "#000000", fontFamily: "sans-serif" }}>
       <div style={{ width: "100%", maxWidth: "400px", padding: "24px" }}>
         
-        <h1 style={{ color: "#fff", textAlign: "center", marginBottom: "30px" }}>datalk auth test</h1>
+        <h1 style={{ color: "#fff", textAlign: "center", marginBottom: "30px" }}>Data Talk Login Page</h1>
 
         <form onSubmit={handleSubmit}>
           <div style={{ marginBottom: "20px" }}>
