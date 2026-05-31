@@ -60,7 +60,7 @@ export default function DataalkQueryUI() {
 
     try {
       const token = localStorage.getItem("authToken");
-      const response = await fetch(`${import.meta.env.VITE_QUERY_URL}/api/query`, {
+      const response = await fetch(`${import.meta.env.VITE_QUERY_URL}/query`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
