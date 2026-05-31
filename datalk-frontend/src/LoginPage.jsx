@@ -9,7 +9,7 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const AUTH_SERVICE_URL = "http://localhost:8002";
+  const AUTH_SERVICE_URL = import.meta.env.VITE_AUTH_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
